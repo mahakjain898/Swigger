@@ -5,19 +5,16 @@ import { Link } from "react-router-dom";
 import useOnlineStatus from "../utils/useOnlineStatus";
 
 const Body = () => {
-  // * State Variable - Super Powerful variable
   const [listOfRestaurants, setListOfRestaurants] = useState([]);
   const [filteredRestaurant, setFilteredRestaurant] = useState([]);
   const [searchText, setSearchText] = useState("");
   ResCardPromoted = withPromoted(RestaurantCard);
 
   useEffect(() => {
-    // console.log("in usefeffectbdshn");
     fetchData();
   }, []);
 
   const fetchData = async () => {
-    // console.log("funstoin called");
     const api =
       "http://www.swiggy.com/dapi/restaurants/list/v5?lat=22.7195687&lng=75.8577258&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING";
     const data = await fetch(api);
@@ -30,8 +27,6 @@ const Body = () => {
       json?.data?.cards[2]?.card?.card?.gridElements?.infoWithStyle?.restaurants
     );
   };
-
-  // console.log("",listOfRestaurants);
 
   const onlineStatus = useOnlineStatus();
   if (onlineStatus === false) {
@@ -56,7 +51,7 @@ const Body = () => {
           <button
             className="px-4 bg-green-100 m-2 p-2 rounded-lg text-green-95"
             onClick={() => {
-              console.log(searchText);
+              // console.log(searchText);
               const filteredRestaurant = listOfRestaurants?.filter((res) =>
                 res?.info?.name
                   ?.toLowerCase()
@@ -72,7 +67,6 @@ const Body = () => {
           <button
             className="px-4 bg-green-100 m-2 p-2 rounded-lg text-green-95"
             onClick={() => {
-              // * Filter logic
               const filteredList = listOfRestaurants?.filter(
                 (res) => res.info.avgRating > 4.2
               );

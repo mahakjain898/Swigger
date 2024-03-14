@@ -10,12 +10,12 @@ const Contact = () => {
     const d = await fetch(USER_URL + "mahakjain898");
     const json = await d.json();
     setUser(json);
-    console.log(user);
+    // console.log(user);
   };
 
   useEffect(() => {
     fetchData();
-    console.log(User);
+    // console.log(User);
   }, []);
 
   return !user ? (
