@@ -1,0 +1,85 @@
+{
+    "info": {
+        "id": "714096",
+        "name": "Go Zero - Guilt Free Ice Creams",
+        "cloudinaryImageId": "86131fdc69b88d44a15c1158496c3c08",
+        "locality": "Raghav Regency",
+        "areaName": "SUDAMA NAGAR",
+        "costForTwo": "₹150 for two",
+        "cuisines": [
+            "Ice Cream",
+            "Desserts"
+        ],
+        "avgRating": 4.2,
+        "veg": true,
+        "parentId": "343689",
+        "avgRatingString": "4.2",
+        "totalRatingsString": "20+",
+        "promoted": true,
+        "adTrackingId": "cid=11728213~p=5~eid=0000018e-4356-69b6-1a91-94670065052e~srvts=1710526720438~69584",
+        "sla": {
+            "deliveryTime": 30,
+            "lastMileTravel": 5,
+            "serviceability": "SERVICEABLE",
+            "slaString": "25-30 mins",
+            "lastMileTravelString": "5.0 km",
+            "iconType": "ICON_TYPE_EMPTY"
+        },
+        "availability": {
+            "nextCloseTime": "2024-03-15 23:59:00",
+            "opened": true
+        },
+        "badges": {},
+        "isOpen": true,
+        "aggregatedDiscountInfoV2": {
+            "header": "50% OFF",
+            "shortDescriptionList": [
+                {
+                    "discountType": "FinalPrice",
+                    "operationType": "RESTAURANT"
+                }
+            ],
+            "descriptionList": [
+                {
+                    "meta": "Get items under 79",
+                    "discountType": "FinalPrice",
+                    "operationType": "RESTAURANT"
+                }
+            ]
+        },
+        "type": "F",
+        "badgesV2": {
+            "entityBadges": {
+                "imageBased": {},
+                "textBased": {},
+                "textExtendedBadges": {}
+            }
+        },
+        "orderabilityCommunication": {
+            "title": {},
+            "subTitle": {},
+            "message": {},
+            "customIcon": {}
+        },
+        "differentiatedUi": {
+            "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+            "differentiatedUiMediaDetails": {
+                "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                "lottie": {},
+                "video": {}
+            }
+        },
+        "reviewsSummary": {},
+        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+        "restaurantOfferPresentationInfo": {}
+    },
+    "analytics": {
+        "context": "seo-data-ba517b72-470c-4dcf-a401-05a91cecadb9"
+    },
+    "cta": {
+        "link": "https://www.swiggy.com/restaurants/go-zero-guilt-free-ice-creams-raghav-regency-sudama-nagar-indore-714096",
+        "text": "RESTAURANT_MENU",
+        "type": "WEBLINK"
+    },
+    "widgetId": "collectionV5RestaurantListWidget_byName"
+}
